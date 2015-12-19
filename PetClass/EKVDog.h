@@ -7,8 +7,10 @@
 //
 
 #import "EKVPet.h"
+#import "EKVRunners.h"
+#import "EKVSwimmers.h"
 
-@interface EKVDog : EKVPet
+@interface EKVDog : EKVPet <EKVRunners, EKVSwimmers>
 
 @property (nonatomic, strong) NSString  *sound;
 

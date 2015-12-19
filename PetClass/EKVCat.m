@@ -10,6 +10,8 @@
 
 @implementation EKVCat
 
+@synthesize speed;
+
 - (instancetype)initWithName:(NSString *)name
 {
     self = [super initWithName:name];
@@ -28,7 +30,15 @@
 }
 
 -(void) climbToTree{
-     NSLog(@"Cat %@ climbed to top of tree", self.petNickname);
+     NSLog(@"Cat %@ climbed to top of the tree", self.petNickname);
+}
+
+- (void) toRun{
+    NSLog(@"The cat %@ begun to run", self.petNickname);
+}
+
+- (void) toClimb{
+    NSLog(@"The cat %@ climbed to %@", self.petNickname, @"roof");
 }
 
 @end

@@ -10,6 +10,8 @@
 
 @implementation EKVDog
 
+@synthesize speed;
+
 - (instancetype)initWithName:(NSString *)name
 {
     self = [super initWithName:name];
@@ -25,10 +27,23 @@
 }
 
 - (void) volume{
-    NSLog(@"Dog have voice like %@", self.sound);
+    NSLog(@"The dog have voice like %@", self.sound);
 }
 
 -(void) bringStick {
-    NSLog(@"Dog %@ brought the stick", self.petNickname);
+    NSLog(@"The dog %@ brought the stick", self.petNickname);
 }
+
+- (void)toRun {
+    NSLog(@"The dog %@ begun to run", self.petNickname);
+}
+
+- (void)toSwim {
+    NSLog(@"The dog %@ begun to swim", self.petNickname);
+}
+
+- (void)toClimb {
+    NSLog(@"The dog %@ tryed to climb to %@, but fallen to grass", self.petNickname, @"roof");
+}
+
 @end

@@ -30,6 +30,8 @@
     [dog describe];
     [dog bringStick];
     
+    NSLog(@"Speed %f", dog.speed);
+    
     // Override point for customization after application launch.
     
     return YES;

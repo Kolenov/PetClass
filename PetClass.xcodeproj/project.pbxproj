@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C07BADE1C23760400DAF0D4 /* Task.h in Sources */ = {isa = PBXBuildFile; fileRef = 6C07BADD1C23760400DAF0D4 /* Task.h */; };
+		6C07BAE11C2376DB00DAF0D4 /* EKVBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C07BAE01C2376DB00DAF0D4 /* EKVBird.m */; };
+		6C07BAE51C23777D00DAF0D4 /* EKVPenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C07BAE41C23777D00DAF0D4 /* EKVPenguin.m */; };
+		6C07BAE81C23779B00DAF0D4 /* EKVFrigateBird.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C07BAE71C23779B00DAF0D4 /* EKVFrigateBird.m */; };
+		6C07BAEB1C2377AC00DAF0D4 /* EKVEagle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C07BAEA1C2377AC00DAF0D4 /* EKVEagle.m */; };
 		6C5717F11C17A6F000DA2C6F /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6C5717F01C17A6F000DA2C6F /* .gitignore */; };
 		6C5E3F2B1C12079200DD7FE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E3F2A1C12079200DD7FE2 /* main.m */; };
 		6C5E3F2E1C12079300DD7FE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E3F2D1C12079300DD7FE2 /* AppDelegate.m */; };
@@ -17,9 +22,22 @@
 		6C5E3F421C1207D900DD7FE2 /* EKVPet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C5E3F411C1207D900DD7FE2 /* EKVPet.m */; };
 		6CC953501C138BDC0090E7B2 /* EKVCat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CC9534F1C138BDC0090E7B2 /* EKVCat.m */; };
 		6CCD16991C17672900A1FBD9 /* EKVDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CCD16981C17672900A1FBD9 /* EKVDog.m */; };
+		815AF9AE1C25747F00ECA2F1 /* EKVLitlePenguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 815AF9AD1C25747F00ECA2F1 /* EKVLitlePenguin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C07BADD1C23760400DAF0D4 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		6C07BADF1C2376DB00DAF0D4 /* EKVBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVBird.h; sourceTree = "<group>"; };
+		6C07BAE01C2376DB00DAF0D4 /* EKVBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVBird.m; sourceTree = "<group>"; };
+		6C07BAE31C23777D00DAF0D4 /* EKVPenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVPenguin.h; sourceTree = "<group>"; };
+		6C07BAE41C23777D00DAF0D4 /* EKVPenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVPenguin.m; sourceTree = "<group>"; };
+		6C07BAE61C23779B00DAF0D4 /* EKVFrigateBird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVFrigateBird.h; sourceTree = "<group>"; };
+		6C07BAE71C23779B00DAF0D4 /* EKVFrigateBird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVFrigateBird.m; sourceTree = "<group>"; };
+		6C07BAE91C2377AC00DAF0D4 /* EKVEagle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVEagle.h; sourceTree = "<group>"; };
+		6C07BAEA1C2377AC00DAF0D4 /* EKVEagle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVEagle.m; sourceTree = "<group>"; };
+		6C07BAEE1C23782500DAF0D4 /* EKVFlyers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVFlyers.h; sourceTree = "<group>"; };
+		6C07BAF01C23784D00DAF0D4 /* EKVSwimmers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVSwimmers.h; sourceTree = "<group>"; };
+		6C07BAF11C23785F00DAF0D4 /* EKVRunners.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVRunners.h; sourceTree = "<group>"; };
 		6C5717F01C17A6F000DA2C6F /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		6C5E3F261C12079200DD7FE2 /* PetClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5E3F2A1C12079200DD7FE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -37,6 +55,8 @@
 		6CC9534F1C138BDC0090E7B2 /* EKVCat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVCat.m; sourceTree = "<group>"; };
 		6CCD16971C17671D00A1FBD9 /* EKVDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVDog.h; sourceTree = "<group>"; };
 		6CCD16981C17672900A1FBD9 /* EKVDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVDog.m; sourceTree = "<group>"; };
+		815AF9AC1C25747F00ECA2F1 /* EKVLitlePenguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKVLitlePenguin.h; sourceTree = "<group>"; };
+		815AF9AD1C25747F00ECA2F1 /* EKVLitlePenguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKVLitlePenguin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +70,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C07BAE21C23773400DAF0D4 /* EKVClasses */ = {
+			isa = PBXGroup;
+			children = (
+				6C07BAEF1C23782E00DAF0D4 /* Protocols */,
+				6C07BAEC1C2377C100DAF0D4 /* Bird */,
+				6C07BAED1C2377D300DAF0D4 /* Pet */,
+			);
+			name = EKVClasses;
+			sourceTree = "<group>";
+		};
+		6C07BAEC1C2377C100DAF0D4 /* Bird */ = {
+			isa = PBXGroup;
+			children = (
+				6C07BADF1C2376DB00DAF0D4 /* EKVBird.h */,
+				6C07BAE91C2377AC00DAF0D4 /* EKVEagle.h */,
+				6C07BAE31C23777D00DAF0D4 /* EKVPenguin.h */,
+				815AF9AC1C25747F00ECA2F1 /* EKVLitlePenguin.h */,
+				815AF9AD1C25747F00ECA2F1 /* EKVLitlePenguin.m */,
+				6C07BAE61C23779B00DAF0D4 /* EKVFrigateBird.h */,
+				6C07BAE01C2376DB00DAF0D4 /* EKVBird.m */,
+				6C07BAEA1C2377AC00DAF0D4 /* EKVEagle.m */,
+				6C07BAE41C23777D00DAF0D4 /* EKVPenguin.m */,
+				6C07BAE71C23779B00DAF0D4 /* EKVFrigateBird.m */,
+			);
+			name = Bird;
+			sourceTree = "<group>";
+		};
+		6C07BAED1C2377D300DAF0D4 /* Pet */ = {
+			isa = PBXGroup;
+			children = (
+				6C5E3F401C1207D900DD7FE2 /* EKVPet.h */,
+				6CC9534E1C138BDC0090E7B2 /* EKVCat.h */,
+				6CCD16971C17671D00A1FBD9 /* EKVDog.h */,
+				6C5E3F411C1207D900DD7FE2 /* EKVPet.m */,
+				6CC9534F1C138BDC0090E7B2 /* EKVCat.m */,
+				6CCD16981C17672900A1FBD9 /* EKVDog.m */,
+			);
+			name = Pet;
+			sourceTree = "<group>";
+		};
+		6C07BAEF1C23782E00DAF0D4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6C07BAEE1C23782500DAF0D4 /* EKVFlyers.h */,
+				6C07BAF01C23784D00DAF0D4 /* EKVSwimmers.h */,
+				6C07BAF11C23785F00DAF0D4 /* EKVRunners.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		6C5E3F1D1C12079200DD7FE2 = {
 			isa = PBXGroup;
 			children = (
 				6C5717F01C17A6F000DA2C6F /* .gitignore */,
+				6C07BADD1C23760400DAF0D4 /* Task.h */,
 				6C5E3F281C12079200DD7FE2 /* PetClass */,
 				6C5E3F271C12079200DD7FE2 /* Products */,
 			);
@@ -70,12 +141,7 @@
 		6C5E3F281C12079200DD7FE2 /* PetClass */ = {
 			isa = PBXGroup;
 			children = (
-				6C5E3F401C1207D900DD7FE2 /* EKVPet.h */,
-				6C5E3F411C1207D900DD7FE2 /* EKVPet.m */,
-				6CC9534E1C138BDC0090E7B2 /* EKVCat.h */,
-				6CC9534F1C138BDC0090E7B2 /* EKVCat.m */,
-				6CCD16971C17671D00A1FBD9 /* EKVDog.h */,
-				6CCD16981C17672900A1FBD9 /* EKVDog.m */,
+				6C07BAE21C23773400DAF0D4 /* EKVClasses */,
 				6C5E3F2C1C12079200DD7FE2 /* AppDelegate.h */,
 				6C5E3F2D1C12079300DD7FE2 /* AppDelegate.m */,
 				6C5E3F2F1C12079300DD7FE2 /* ViewController.h */,
@@ -123,6 +189,7 @@
 		6C5E3F1E1C12079200DD7FE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EKV;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Eduard Kolenov";
 				TargetAttributes = {
@@ -168,11 +235,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C07BAEB1C2377AC00DAF0D4 /* EKVEagle.m in Sources */,
+				6C07BADE1C23760400DAF0D4 /* Task.h in Sources */,
 				6C5E3F311C12079400DD7FE2 /* ViewController.m in Sources */,
 				6CC953501C138BDC0090E7B2 /* EKVCat.m in Sources */,
+				6C07BAE51C23777D00DAF0D4 /* EKVPenguin.m in Sources */,
+				6C07BAE11C2376DB00DAF0D4 /* EKVBird.m in Sources */,
 				6CCD16991C17672900A1FBD9 /* EKVDog.m in Sources */,
 				6C5E3F2E1C12079300DD7FE2 /* AppDelegate.m in Sources */,
 				6C5E3F421C1207D900DD7FE2 /* EKVPet.m in Sources */,
+				6C07BAE81C23779B00DAF0D4 /* EKVFrigateBird.m in Sources */,
+				815AF9AE1C25747F00ECA2F1 /* EKVLitlePenguin.m in Sources */,
 				6C5E3F2B1C12079200DD7FE2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
